@@ -1,5 +1,5 @@
-
-export const api = "https://equilibrio-oriental-prj-9ff365050a0b.herokuapp.com/api";
+//export const api = "https://equilibrio-oriental-prj-9ff365050a0b.herokuapp.com/api";
+export const api = process.env.REACT_APP_API_URL
 
 export const requestConfig = (method, data, token = null) => {
   let config;
