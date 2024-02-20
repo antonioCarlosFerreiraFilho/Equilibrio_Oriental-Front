@@ -1,0 +1,26 @@
+@media screen and (min-width: 350px) {
+  
+  .Deliveries {
+
+    background-color: rgb(144, 10, 10);
+  }
+  
+  .Deliveries_content {
+  
+    display: flex;
+    justify-content: center;
+
+    padding: .40rem 0 .50rem 0;
+  }
+  
+  .Deliveries_promotion p{
+  
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    padding: 0;
+    margin: 0;
+  }
+}

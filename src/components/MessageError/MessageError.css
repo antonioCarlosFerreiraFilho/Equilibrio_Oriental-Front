@@ -1,0 +1,36 @@
+@media screen and (min-width: 350px) {
+  
+  .MessageError_box  {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .MessageError_box-content.error {
+
+    background-color: #FF000070;
+
+    padding: .80rem;
+    border-radius: 40px;
+  }
+
+  .MessageError_box-content.success {
+
+    background-color: #13dc2370;
+
+    padding: .80rem;
+    border-radius: 40px;
+  }
+
+  .MessageError_box-content p {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+}

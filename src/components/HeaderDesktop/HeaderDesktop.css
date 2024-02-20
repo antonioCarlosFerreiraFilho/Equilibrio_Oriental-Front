@@ -1,0 +1,104 @@
+@media screen and (min-width: 500px) {
+  
+  .HeaderDesktop_content-boxes {
+
+    width: 300px;
+    height: 93px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+  }
+
+  .HeaderDesktop_links {
+
+    display: none;
+  }
+
+  .HeaderDesktop_link a {
+
+    color: rgb(127, 70, 70);
+
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: 'Agbalumo', system-ui;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .HeaderDesktop_content-linkCar {
+
+    padding: .50rem;
+  }
+
+  .HeaderDesktop_linkCar {
+
+   position: relative;
+  }
+
+  .HeaderDesktop_content-itensNumber {
+
+    background-color: #00000010;
+
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: -25px;
+    right: -4px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+  }
+
+  .HeaderDesktop_content-itensNumber p {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .HeaderDesktop_IconCar {
+
+    color: rgb(196, 38, 38);
+
+    font-size: 2.3rem;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+  
+  .HeaderDesktop_content-boxes {
+
+    width: 400px;
+    height: 93px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .HeaderDesktop_links {
+
+    display: block;
+  }
+
+  .HeaderDesktop_links a {
+
+    color: rgb(127, 70, 70);
+
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: 'Agbalumo', system-ui;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+}

@@ -1,0 +1,265 @@
+@media screen and (min-width: 350px) {
+  
+  .BasketItens {
+
+    background-color: rgb(240, 239, 238);
+
+    width: 100%;
+    height: auto;
+
+    padding: 9rem 1rem 0 1rem;
+    box-sizing: border-box;
+  }
+
+  .BasketItens_empty h1{
+
+    color: rgb(3, 3, 3);
+
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .BasketItens_empty_itensAdd {
+
+    display: flex;
+    flex-direction: column;
+   
+    height: auto;
+  }
+
+  .BasketItens_content {
+
+    background-color: white;
+
+    padding: .50rem;
+  }
+
+  .BasketItens_content {
+
+    margin-bottom: 1rem;
+  }
+
+  .BasketItens_ContentIten h1 {
+
+    color: rgb(17, 17, 17);
+
+    text-transform: uppercase;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .BasketItens_box strong {
+
+    color: rgb(171, 122, 31);
+
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .BasketItens_slogan p{
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .BasketItens_sloganImage {
+
+    background-image: url("../../../public/dishes/ramen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100px;
+    height: 100px;
+  }
+
+  .BasketItens_boxButton {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .BasketItens_boxButton a {
+
+    background-color: orange;
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    padding: 8px 40px;
+    text-decoration: none;
+  }
+
+  .BasketItens_product {
+
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(198, 195, 195);    
+    
+    padding-bottom: 1rem;
+  }
+
+  .BasketItens_productBox-image {
+
+    width: 20%;
+  }
+
+  .BasketItens_productBox-image img{
+
+    width: 100%;
+  }
+
+  .BasketItens_product-name {
+   
+    width: 80%;
+
+    padding-left: .50rem;
+  }
+
+  .BasketItens_product-name h1 {
+
+    color: rgb(77, 73, 73);
+
+    font-size: 1rem;
+    font-weight: bold;
+
+  }
+
+  .BasketItens_product-category p{
+
+    color: rgb(77, 73, 73);
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    margin: 0;
+  }
+
+  .BasketItens_product-category strong{
+
+    color: rgb(168, 31, 31);
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin: 0;
+  }
+
+  .BasketItens_product-operations {
+    
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem 0 1rem 0;
+  }
+
+  .BasketItens_product-boxButton {
+
+    width: 50%;
+  }
+
+  .BasketItens_product-boxButton button {
+
+    background-color: rgb(232, 226, 226);
+    color: black;
+
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+
+  }
+
+  .BasketItens_product-tot {
+
+    width: 50%;
+  }
+
+  .BasketItens_product-tot p {
+
+    text-align: end;
+
+    color: rgb(168, 31, 31);
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    margin: 0;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+
+  .BasketItens {
+
+    background-color: rgb(240, 239, 238);
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+  }
+  
+  .BasketItens_empty {
+
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .BasketItens_empty {
+
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    margin-bottom: 1rem;
+
+    box-sizing: border-box;
+  }
+
+  .BasketItens_empty_itensAdd {
+
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    gap: 10px;
+  }
+
+  .BasketItens {
+
+    background-color: rgb(240, 239, 238);
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+   
+
+    margin: 0 auto;
+  }
+
+  .BasketItens_content {
+
+    width: 400px;
+  }
+ 
+}
+

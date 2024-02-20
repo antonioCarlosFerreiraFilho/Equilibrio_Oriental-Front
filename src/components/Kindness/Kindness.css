@@ -1,0 +1,57 @@
+@media screen and (min-width: 350px) {
+  
+  .Kindness {
+
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+  }
+
+  .Kindness_linkCar {
+
+    position: relative;
+  }
+
+  .Kindness_content-itensNumber {
+
+    background-color: #00000020;
+
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+  }
+
+  .Kindness_content-itensNumber p {
+
+    color: rgb(249, 246, 246);
+
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .Kindness_IconCar {
+
+    color: rgb(230, 5, 5);
+
+    font-size: 2.3rem;
+  }
+
+  .Kindness_carIcon {
+
+    background-image: url("../../../public/Kindness/Kindness_car.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 50px;
+  }
+}

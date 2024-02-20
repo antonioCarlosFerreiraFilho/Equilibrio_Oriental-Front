@@ -1,0 +1,140 @@
+@media screen and (min-width: 350px) {
+ 
+  .Comments {
+
+    padding: 1rem;
+  }
+
+  .Comments_boxes {
+
+ 
+  }
+
+  .Comments_infoCounter {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .Comments_infoCounter h1 {
+    
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 0.20rem;
+  }
+
+  .Comments_Line {
+
+    background-color: rgb(153, 209, 41);
+
+    width: 30%;
+    height: 3px;
+  }
+
+  .Comments_boxesComments {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(160, 155, 155);
+  }
+
+  .Comments_boxImage {
+
+    width: 18%;
+  }
+
+  .Comments_boxImage img{
+
+    width: 100%;
+
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
+  .Comments_CommmetUser {
+
+    width: 77%;
+
+    box-sizing: border-box;
+  }
+
+  .Comments_CommmetUser h1 {
+
+    color: rgb(119, 43, 16);
+
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .Comments_CommmetUser p {
+
+    color: black;
+
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+  }
+
+  .Commetns_form {
+
+    padding: 1rem;
+  }
+
+  .Commetns_box-content {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Commetns_form-inpus {
+
+    width: 100%;
+  }
+
+  .Commetns_form-inpus textarea{
+
+    background-color: rgb(244, 238, 238);
+
+    width: 100%;
+    height: 100px;
+
+    border-radius: 10px;
+    border: none;
+  }
+
+  .Commetns_form-inpus textarea::placeholder{
+
+   padding: .50rem;
+   font-size: 1rem;
+   font-family: sans-serif;
+  }
+
+  .Commetns_form-boxcontent-input {
+
+    padding-top: 1rem;
+  }
+
+  .Commetns_form-boxcontent-input input{
+
+    background-color: rgb(210, 146, 27);
+    color: white;
+
+    width: 50%;
+    height: 40px;
+
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+
+    border-radius: 10px;
+    border: none;
+  }
+}

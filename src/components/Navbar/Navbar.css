@@ -1,0 +1,150 @@
+@media screen and (min-width: 350px) {
+  
+  .Navbar_content-infos {
+
+    background-color: white;
+
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .Section_promotions {
+
+  }
+
+  .Navbar {
+
+    max-width: 990px;
+
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .Navbar_content a {
+
+    padding: .70rem;
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .Navbar_box-logo {
+
+    background-image: url("../../../public/logo/logo_mob.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    width: 70px;
+    height: 70px;
+
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 50%;
+  }
+
+  .Navbar_box-brand p {
+
+    color: rgb(167, 12, 12);
+
+    font-family: 'Agbalumo', system-ui;
+    font-size: 1.2rem;
+
+    padding: 0;
+    margin: 0 0 0 5px;
+  }
+
+  .Navbar_box-menu {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .Navbar_box-iconMenu {
+
+    font-size: 2.1rem;
+    margin-right: 1rem;
+  }
+
+  .Navbar_boxesHamburger {
+
+    width: 30px;
+    height: 30px;
+
+    margin-right: 1rem;
+  }
+
+  .Line {
+
+    border-top: 3px solid black;
+    transition: .6s;
+    display: block;
+    
+    position: relative;
+  }
+
+  .Navbar_box-menuDeskTop {
+
+    display: none;
+  }
+
+  .Line::after, .Line::before {
+
+    content: "";
+    background-color: black;
+
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+  
+  .Line.active {
+
+    border-top-color: transparent;
+    transition: .3s;
+  }
+
+  .Line.active::before {
+
+    transform: rotate(-45deg);
+    transition: .3s;
+  }
+
+  .Line.active::after {
+
+    transform: rotate(45deg);
+    transition: .3s;
+    top: -7px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  
+  .Navbar_box-menu {
+
+    display: none;
+  }
+
+  .Navbar_box-menuDeskTop {
+
+    display: block;
+  }
+
+  .Navbar {
+
+    display: flex;
+    justify-content: space-between;
+  }
+}

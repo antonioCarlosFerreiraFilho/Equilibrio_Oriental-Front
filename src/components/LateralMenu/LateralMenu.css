@@ -1,0 +1,119 @@
+@media screen and (min-width: 350px) {
+  
+  .LateralMenu {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    background-color: #f7f6f6;
+    transition: .9s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .LateralMenuJS {
+    transition: .9s;
+    height: 100vh;
+    visibility: visible;
+  }
+
+  .LateralMenu_user-name_user-image {
+
+    background-color: rgb(161, 14, 14);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .30rem 0 .30rem 0;
+  }
+
+  .LateralMenu_user-image {
+
+    background-image: url("../../../public/userDefault/User_image_default_00.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    border: 2px solid white;
+
+    margin-right: 15px;
+  }
+
+  .LateralMenu_user-name_user-image p {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .LateralMenu_boxContent {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .LateralMenu_Content-Links {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 2rem 0 0 0;
+  }
+
+  .LateralMenu_Link {
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+
+  .LateralMenu_boxButtons {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 1rem 0 1rem 0;
+  }
+
+  .LateralMenu_Button_link{
+
+    background-color: rgb(157, 10, 10);
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 35px;
+    border-radius: 23px;
+  }
+
+  .LateralMenu_Button_link_reservations {
+
+    background-color: rgb(240, 200, 182);
+    color:  rgb(157, 10, 10);
+
+    text-decoration: none;
+    border: 1px solid  rgb(157, 10, 10);
+    font-weight: 400;
+    padding: 14px 50px;
+    border-radius: 23px;
+  }
+}

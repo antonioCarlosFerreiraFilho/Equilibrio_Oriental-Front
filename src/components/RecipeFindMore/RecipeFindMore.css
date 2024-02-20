@@ -1,0 +1,121 @@
+@media screen and (min-width: 350px) {
+
+  .Article {
+
+    padding-top: 9rem;
+  }
+
+  .Article_box-content {}
+
+  .Article_content-info {
+
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
+  }
+
+  .Article_box-image {
+
+    width: 100%;
+  }
+
+  .Article_box-image img {
+
+    width: 100%;
+  }
+
+  .Article_boxTitle h1 {
+
+    color: rgb(167, 30, 30);
+
+    font-family: 'Creepster', system-ui;
+    letter-spacing: 2px;
+
+    margin: 0;
+  }
+
+  .Article_box-contentCategory p {
+
+    color: rgb(36, 29, 29);
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    padding: 0;
+    margin: .20rem 0 0 0;
+  }
+
+  .Article_box-contentCategory strong {
+
+    color: rgb(36, 29, 29);
+
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .Article_boxGeneral-Ingredients {}
+
+  .Article_boxGeneral-Ingredients h1 {
+
+    color: rgb(167, 30, 30);
+
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    padding: 0 0 1rem 0;
+    margin: 2rem 0 0 0;
+  }
+
+  .Article_box-Ingredients p {
+
+
+    font-family: sans-serif;
+    font-weight: bold;
+
+    padding: 0;
+    margin: .60rem 0 0 0;
+  }
+
+  .Article_priceBox {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Article_priceBox h1 {
+
+    color: rgb(0, 0, 0);
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Caveat Brush', cursive;
+  }
+
+  .Article_contentLink {
+
+    text-decoration: none;
+  }
+
+  .Article_kindness-box {
+
+    background-color: rgb(246, 173, 38);
+
+    width: 90%;
+    height: 30px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Article_kindness-box p {
+
+    color: rgb(0, 0, 0);
+  }
+}

@@ -1,0 +1,143 @@
+@media screen and (min-width: 350px) {
+ 
+  .BannerDishes {
+
+    background-image: url("../../../public/Banner/banner_dishes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .BannerDishes_box-content {
+
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BannerDishes_box-shadow {
+
+    background-color: #00000050;
+    width: 100%;
+    height:  100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BannerDishes-promotions {
+
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+  }
+
+  .BannerDishes-promotions h1{
+
+    color: rgb(205, 48, 48);
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Shojumaru', system-ui;
+    text-align: start;
+  }
+
+  .BannerDishes-promotions p{
+
+    color: rgb(224, 204, 204);
+
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .BannerDishes-promotions p strong{
+
+    color: orange;
+
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .BannerDishes-boxButton {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  .BannerDishes-boxButton a {
+
+    background-color: transparent;
+    color: rgb(239, 159, 20);
+
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 55px;
+    border: 2px solid rgb(243, 220, 179);
+    border-radius: 20px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .BannerDishes_box-content {
+
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .BannerDishes-promotions h1{
+
+    color: rgb(242, 149, 149);
+
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Shojumaru', system-ui;
+    text-align: start;
+  }
+
+}
+
+@media screen and (min-width: 890px) {
+
+  .BannerDishes-promotions {
+
+    width: 720px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+  }
+
+}

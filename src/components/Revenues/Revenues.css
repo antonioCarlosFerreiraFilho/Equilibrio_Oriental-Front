@@ -1,0 +1,311 @@
+@media screen and (min-width: 350px) {
+
+  .Revenues {
+
+    background-color: rgb(228, 243, 214);
+
+    padding: 1rem;
+  }
+
+  .Revenues_title h1 {
+    color: rgb(164, 34, 34);
+
+    font-family: 'Carter One', system-ui;
+    text-align: center;
+  }
+
+  /*----------------------*/
+  
+  .Re_new-card {
+
+    height: 300px;
+    overflow: hidden;
+    background-image: url("../../../public/Revenues/lamen\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-bottom: 2rem;
+  }
+
+
+  /*----------------------*/
+
+
+  .Re_new-fundo {
+
+    background: #00000070;
+
+    height: 100%;
+
+    padding: .50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Re_new-adimin {
+
+    z-index: 300;
+
+    color: white;
+    font-size: 1.1rem;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .Re_new-date {
+
+    color: white;
+    font-size: 1.1rem;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .Re_new-likeViewCommets {
+
+    padding: 1rem;
+  }
+
+  .Re_new-txtBoxes-content {
+
+
+    border-bottom: 2px solid white;
+    margin-bottom: 1rem;
+  }
+
+  .Re_new-txt {
+
+    color: white;
+
+    text-align: start;
+    font-weight: bold;
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-family: 'Bona Nova', serif;
+
+    padding: 0 0 0 0;
+    margin: 0;
+
+  }
+
+  .Re_new-PriceDishes {
+
+    padding: 0 0 1rem 0;
+    margin: 0;
+  }
+
+  .Re_new-PriceDishes strong {
+
+    color: orange;
+
+    font-size: 1.7rem;
+    font-family: sans-serif;
+  }
+
+  .Re_new-boxIconsjs {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Re_new-boxContentIcones {
+
+   width: 50%;
+  }
+
+
+
+  .Re_new-view {
+
+    color: white;
+    margin-right: 50px;
+  }
+
+  .Re_new-comments {
+
+    color: white;
+    
+  }
+
+  .Re_new-boxkindness {
+
+    text-decoration: none;
+
+    
+  }
+
+  .Re_new-boxIconkindness {
+
+    background-color: rgb(246, 173, 38);
+
+    width: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Re_new-boxIconkindness p{
+
+    color: black;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+  }
+
+  .Re_new-iconkindness {
+
+    color: black;
+
+    font-size: 1.1rem;
+    margin-right: 5px;
+  }  
+}
+
+@media screen and (min-width: 500px) {
+ 
+  .Revenues {
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .Revenues_card_boxesContent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    
+    padding: 0;
+    margin: 0;
+  }
+
+  .Re-cardBoxes {
+
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 680px) {
+ 
+  .Revenues {
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .Revenues_card_boxesContent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    
+    padding: 0;
+    margin: 0;
+  }
+
+  .Re-cardBoxes {
+
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .Revenues {
+
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .Revenues_card_boxesContent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    
+    padding: 2rem 0 2rem 0;
+    margin: 0;
+  }
+
+  .Re-cardBoxes {
+
+    width: 49%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+ 
+  .Revenues {
+
+    width: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+  }
+
+  .Revenues_card_boxesContent {
+
+    width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    gap: 10px;
+    
+    padding: 2rem 0 2rem 0;
+    margin: 0;
+  }
+
+  .Re-cardBoxes {
+
+    width: 45%;
+    height: 340px;
+  }
+}

@@ -1,0 +1,538 @@
+@media screen and (min-width: 350px) {
+  .Reservation {
+
+    background-color: rgb(215, 40, 40);
+  }
+
+  .Reservation_box {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+  }
+
+  .Reservation_content-title {
+
+    padding: 0 4rem 0 4rem;
+    text-align: center;
+  }
+
+  .Reservation_content-title h1{
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+
+  .Reservation_boxForm {
+
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+  }
+
+  .Reservation_form {
+    
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Res_Inputs-box {
+
+    margin-bottom: .40rem;
+  }
+
+  #category-select {
+
+    position: relative;
+  }
+
+
+  .Reservation_LabelChek{
+
+    color: white;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .Reservation_options-view-button {
+
+    all: unset;
+
+    position: absolute;
+    inset: 0;
+ 
+    z-index: 3;
+  }
+
+  #Reservation_select-button {
+
+    background-color: rgb(146, 37, 37);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+
+    width: 250px;
+  }
+
+  #Reservation_select-value {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  #Reservation_select-value-Time {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  #Reservation_chevrons {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Reservation_arrowDown {
+
+    color: white;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .Reservation_arrowUp {
+
+    display: none;
+
+    color: white;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  /*LOGIC INPUT*/
+
+  #category-select:has(Reservation_options-view-button:checked) label,
+  #options-view-button:checked + #Reservation_select-button .Reservation_arrowDown {
+    display: none;
+  }
+
+  #category-select:has(Reservation_options-view-button:checked) label,
+  #options-view-button:checked + #Reservation_select-button .Reservation_arrowUp {
+    display: block;
+  }
+
+  /*itens*/
+
+  .Reservation_content-options {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+    margin-top: 7px;
+    overflow: hidden;
+  }
+
+  .Reservation_options {
+
+    background-color: rgb(146, 37, 37);
+    color: white;
+
+    width: 265px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    transition: .5s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .Reservation_options-Time {
+
+    
+    background-color: rgb(146, 37, 37);
+    color: white;
+
+    width: 265px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    transition: .5s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .Reservation_option {
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+
+    border-bottom: 1px solid rgb(122, 12, 12);
+
+    position: relative;
+  }
+
+  .Reservation_option:last-child {
+
+    border: none;
+  }
+
+  .Reservation_option .Reservation_iconCheck {
+
+    margin-left: auto;
+  }
+
+  .Reservation_option input {
+
+    all: unset;
+
+    position: absolute;
+    inset: 0;
+    
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .Reservation_option-Time {
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+
+    border-bottom: 1px solid rgb(122, 12, 12);
+
+    position: relative;
+  }
+
+  .Reservation_icon-Time {
+
+    font-size: 1.4rem;
+    margin-right: 20px;
+  }
+
+  .Reservation_option-Time:last-child {
+
+    border: none;
+  }
+
+  .Reservation_people-Time {
+
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .Reservation_option-Time .Reservation_iconCheck-Time {
+
+    margin-left: auto;
+  }
+
+  .Reservation_option-Time input {
+
+    all: unset;
+
+    position: absolute;
+    inset: 0;
+    
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  .Reservation_iconCheck, .Reservation_iconCheck-Time {
+
+    display: none; 
+  }
+
+  .Reservation_option:has(input:checked),
+  .Reservation_option:hover {
+
+    border-bottom: 1px solid white;
+    background-color: rgb(116, 28, 28);
+  }
+
+  .Reservation_option-Time:has(input:checked),
+  .Reservation_option-Time:hover {
+
+    border-bottom: 1px solid white;
+    background-color: rgb(116, 28, 28);
+  }
+
+  .Reservation_option:has(input:checked) .Reservation_iconCheck {
+
+    display: block;
+  }
+
+  .Reservation_option-Time:has(input:checked) .Reservation_iconCheck-Time {
+
+    display: block;
+  }
+
+  .Reservation_option span {
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Reservation_icon-user {
+
+    font-size: 1.4rem;
+  }
+
+  /* logic CSS */
+
+  .Reservation_optionsJS {
+
+    transition: .5s;
+    height: 175px;
+    visibility: visible;
+  }
+
+  .Reservation_options-TimeJS {
+
+    transition: .5s;
+    height: 389px;
+    visibility: visible;
+  }
+
+  /* input phone */
+
+  .Reservation_inputPhone {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+  }
+
+  .Reservation_content-inputs {
+
+    width: 274px;
+    margin: 0 auto;
+  }
+
+  .Reservation_labelPhone {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .Reservation_inputPhone input {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    background-color: rgb(146, 37, 37);
+    border: 2px solid white;
+  }
+
+  .Reservation_inputPhone {
+
+    color: white;
+
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+  }
+
+  .Reservation_inputPhone input::placeholder {
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .Reservation_box-button {
+
+    width: 100%;
+    padding-top: .40rem;
+  }
+
+  .Reservation_button {
+
+    background-color: white;
+    color: rgb(179, 11, 11);
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    padding: 10px 76px;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: 0;
+  }
+
+  .Reservation_InfoCost {
+
+    width: 90%;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  .Reservation_InfoCost p{
+
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .Reservation_InfoCost p strong{
+
+    color: yellow;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  
+  #Reservation_select-button {
+
+    background-color: rgb(146, 37, 37);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+
+    width: 350px;
+  }
+
+  .Reservation_options {
+
+    background-color: rgb(146, 37, 37);
+    color: white;
+
+    width: 365px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    transition: .5s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .Reservation_optionsJS {
+
+    transition: .5s;
+    height: 175px;
+    visibility: visible;
+  }
+
+  .Reservation_options-Time {
+
+    
+    background-color: rgb(146, 37, 37);
+    color: white;
+
+    width: 365px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    transition: .5s;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  .Reservation_options-TimeJS {
+
+    transition: .5s;
+    height: 389px;
+    visibility: visible;
+  }
+
+ 
+  .Reservation_content-inputs {
+
+    width: 374px;
+    margin: 0 auto;
+  }
+
+  .Reservation_button {
+
+    background-color: white;
+    color: rgb(179, 11, 11);
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    padding: 10px 125px;
+    border-radius: 20px;
+    border: 1px solid white;
+    outline: 0;
+  }
+
+  .Reservation_InfoCost {
+
+    width: 80%;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+}
