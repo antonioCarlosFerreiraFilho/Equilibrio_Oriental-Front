@@ -1,5 +1,7 @@
-export const api = process.env.REACT_APP_API_URL;
-const back = "api";
+const path = process.env.REACT_APP_API_URL;
+const back = "/api";
+
+export const api = path + back;
 
 export const requestConfig = (method, data, token = null) => {
   let config;
